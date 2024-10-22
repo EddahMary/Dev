@@ -10,15 +10,14 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
   width: auto;
-  background-color: hsl(226, 43%, 10%);
+  background-color: hsl(226, 53%, 26%);
   gap: 20px;
 }
 
 .card1 {
   width: 300px;
-  height: 450px;
+  height: 480px;
   background-color: hsl(235, 46%, 20%);
   border-radius: 20px;
   /* padding-left: 20px ; */
@@ -131,7 +130,7 @@ html {
 
 .card2 {
   width: 600px;
-  height: 450px;
+  height: 470px;
   background-color: transparent;
   display: grid;
   grid-template-rows: repeat(2, 210px);
@@ -139,7 +138,6 @@ html {
 }
 
 .card2 .upper-row {
-  width: auto;
   display: grid;
   grid-template-columns: repeat(3, 180px);
   column-gap: 20px;
@@ -148,7 +146,6 @@ html {
   border-radius: 25px;
 }
 .lower-row {
-  width: auto;
   display: grid;
   grid-template-columns: repeat(3, 180px);
   column-gap: 20px;
@@ -175,7 +172,7 @@ html {
 .wording h1 {
   font-size: 30px;
 }
-.content-1 {
+.card_content{
   background-color: hsl(235, 46%, 20%);
   padding: 15px;
   color: white;
